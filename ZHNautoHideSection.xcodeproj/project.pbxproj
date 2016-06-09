@@ -15,6 +15,8 @@
 		CD70E5F21CCDBCF100818D4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD70E5F01CCDBCF100818D4E /* LaunchScreen.storyboard */; };
 		CD70E5FD1CCDBCF100818D4E /* ZHNautoHideSectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD70E5FC1CCDBCF100818D4E /* ZHNautoHideSectionTests.m */; };
 		CD70E6081CCDBCF100818D4E /* ZHNautoHideSectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD70E6071CCDBCF100818D4E /* ZHNautoHideSectionUITests.m */; };
+		CD70E6171CCDBD5500818D4E /* tempTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD70E6161CCDBD5500818D4E /* tempTableViewController.m */; };
+		CD70E61A1CCDBE2800818D4E /* UITableView+ZHNautoHideSection.m in Sources */ = {isa = PBXBuildFile; fileRef = CD70E6191CCDBE2800818D4E /* UITableView+ZHNautoHideSection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		CD70E6031CCDBCF100818D4E /* ZHNautoHideSectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNautoHideSectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD70E6071CCDBCF100818D4E /* ZHNautoHideSectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNautoHideSectionUITests.m; sourceTree = "<group>"; };
 		CD70E6091CCDBCF100818D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD70E6151CCDBD5500818D4E /* tempTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tempTableViewController.h; sourceTree = "<group>"; };
+		CD70E6161CCDBD5500818D4E /* tempTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tempTableViewController.m; sourceTree = "<group>"; };
+		CD70E6181CCDBE2800818D4E /* UITableView+ZHNautoHideSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ZHNautoHideSection.h"; sourceTree = "<group>"; };
+		CD70E6191CCDBE2800818D4E /* UITableView+ZHNautoHideSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ZHNautoHideSection.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 			children = (
 				CD70E5E51CCDBCF100818D4E /* AppDelegate.h */,
 				CD70E5E61CCDBCF100818D4E /* AppDelegate.m */,
+				CD70E6151CCDBD5500818D4E /* tempTableViewController.h */,
+				CD70E6161CCDBD5500818D4E /* tempTableViewController.m */,
+				CD70E6181CCDBE2800818D4E /* UITableView+ZHNautoHideSection.h */,
+				CD70E6191CCDBE2800818D4E /* UITableView+ZHNautoHideSection.m */,
 				CD70E5E81CCDBCF100818D4E /* ViewController.h */,
 				CD70E5E91CCDBCF100818D4E /* ViewController.m */,
 				CD70E5EB1CCDBCF100818D4E /* Main.storyboard */,
@@ -270,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD70E61A1CCDBE2800818D4E /* UITableView+ZHNautoHideSection.m in Sources */,
 				CD70E5EA1CCDBCF100818D4E /* ViewController.m in Sources */,
+				CD70E6171CCDBD5500818D4E /* tempTableViewController.m in Sources */,
 				CD70E5E71CCDBCF100818D4E /* AppDelegate.m in Sources */,
 				CD70E5E41CCDBCF100818D4E /* main.m in Sources */,
 			);
